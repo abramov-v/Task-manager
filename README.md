@@ -100,4 +100,4 @@ This project is licensed under the **MIT License**.
 
 **Valeriy Abramov**
 - GitHub:
-- email: valery.abramov12@gmail.com
+- email: abramov.valeriy@hotmail.com
