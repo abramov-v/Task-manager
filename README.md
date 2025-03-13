@@ -99,5 +99,5 @@ This project is licensed under the **MIT License**.
 ## Author
 
 **Valeriy Abramov**
-- GitHub:
+- GitHub: [@abramov-dev](https://github.com/abramov-dev) 
 - email: abramov.valeriy@hotmail.com
