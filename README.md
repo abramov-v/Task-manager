@@ -93,9 +93,6 @@ python tasks/telegram_bot.py
 
 ---
 
-## License
-This project is licensed under the **MIT License**.
-
 ## Author
 
 **Valeriy Abramov**
