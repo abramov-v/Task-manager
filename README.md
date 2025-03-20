@@ -37,7 +37,7 @@ SECRET_KEY=your_secret_key
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1
 TELEGRAM_BOT_TOKEN=your_bot_token
-DATABASE_URL=sqlite:///db.sqlite3  # Change this for PostgreSQL if required
+DATABASE_URL=sqlite:///db.sqlite3
 ```
 
 ### 5️⃣ Apply Migrations & Create Superuser
