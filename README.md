@@ -1,6 +1,7 @@
-# Task Manager API with Telegram Bot Integration
+# Task Manager API (Django + Telegram Bot Integration)
 
-**Django REST Framework** project for managing tasks with **JWT authentication**, **Telegram notifications**, and **filtering/search functionality**.
+## Overview
+A task tracking API built with Django REST Framework, featuring JWT authentication, comment support, search & filtering, and real-time notifications via Telegram Bot. Ideal for managing personal or team to-dos with programmatic access.
 
 ## Features
 - **User authentication** with JWT (`djangorestframework-simplejwt`)
@@ -12,25 +13,25 @@
 
 ## Installation
 
-### 1️⃣ Clone the Repository
+1. Clone the Repository
 ```sh
 git clone https://github.com/yourusername/task-manager.git
 cd task-manager
 ```
 
-### 2️⃣ Create & Activate Virtual Environment
+2. Create & Activate Virtual Environment
 ```sh
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
-### 3️⃣ Install Dependencies
+3. Install Dependencies
 ```sh
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set Up Environment Variables
+4. Set Up Environment Variables
 Create a `.env` file in the project root and add:
 ```ini
 SECRET_KEY=your_secret_key
@@ -40,19 +41,27 @@ TELEGRAM_BOT_TOKEN=your_bot_token
 DATABASE_URL=sqlite:///db.sqlite3
 ```
 
-### 5️⃣ Apply Migrations & Create Superuser
+5. Apply Migrations & Create Superuser
 ```sh
 python manage.py migrate
 python manage.py createsuperuser
 ```
 
-### 6️⃣ Run the Server
+6. Run the Server
 ```sh
 python manage.py runserver
 ```
 API will be available at **`http://127.0.0.1:8000/api/`**.
 
----
+
+## Technologies Used:
+- **Python 3.10+**
+- **Django 4+**
+- **Django REST Framework**
+- **PostgreSQL** or SQLite
+- **Telegram Bot API**
+- **JWT (djangorestframework-simplejwt)**
+
 
 ## API Endpoints
 ### **Authentication**
@@ -95,5 +104,6 @@ python tasks/telegram_bot.py
 
 ## Author
 **Valeriy Abramov**
+
 - GitHub: [@abramov-v](https://github.com/abramov-v) 
 - email: abramov.valeriy@hotmail.com
