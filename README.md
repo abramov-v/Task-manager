@@ -54,7 +54,7 @@ python manage.py runserver
 API will be available at **`http://127.0.0.1:8000/api/`**.
 
 
-## Technologies Used:
+## Tech stack
 - **Python 3.10+**
 - **Django 4+**
 - **Django REST Framework**
